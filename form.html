@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+</head>
+<body>
+    <form action="https://6306b2e73a2114bac75364c2.mockapi.io/api/v1/cursosin" method="post">
+        <fieldset>
+            <legend>Dados do aluno:</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input placeholder="Digite seu Nome:" type="text" id="nome" name="nome" required>
+            </div>
+            <br>
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input placeholder="Digite seu Endereço:" type="text" id="endereco" name="endereco" required>
+            </div>
+            <br>
+            <div>
+                <label for="bairro">Bairro:</label>
+                <input placeholder="Digite seu Bairro:" type="text" id="bairro" name="bairro" required>
+            </div>
+            <br>
+            <div>
+                <label for="cidade">Cidade:</label>
+                <input placeholder="Digite seu Cidade:" type="text" id="cidade" name="cidade" required>
+            </div>
+            <br>
+            <div>
+                <label for="numero">Numero:</label>
+                <input placeholder="Digite seu Numero:" type="text" id="numero" name="numero" required>
+            </div>
+            <br>
+            <div>
+                <label for="CEP">CEP:</label>
+                <input placeholder="CEP" type="text" id="CEP" name="CEP" required>
+            </div>
+            <br>
+            <div>
+                <label for="complemento">Complemento:</label>
+                <input placeholder="Complemento:" type="text" id="complemento" name="complemento" required>
+            </div>
+            <br>
+            <div>
+                <label for="estado">Estado:</label>
+                <input placeholder="Digite seu Estado:" type="text" id="estado" name="estado" required>
+            </div>
+            <br>
+            <div>
+                <label for="estado">Estado:</label>
+                <input placeholder="Digite seu Estado:" type="text" id="estado" name="estado" required>
+            </div>
+            <br>
+            <div>
+                <label for="telefone">telefone:</label>
+                <input placeholder="telefone" type="text" id="telefone" name="telefone" required>
+            </div>
+            <br>
+            <div>
+                <label for="celular">celular:</label>
+                <input placeholder="celular" type="text" id="celular" name="celular" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input placeholder="Digite seu E-mail:" type="text" id="email" name="email" required>
+            </div>
+            <br>
+        <div>
+                <label>Cor:</label>
+                <input checked value="B" name="cor" id="branco" type="radio" required><label for="branco">Branco</label>
+                <input value="P" name="cor" id="pardo" type="radio" required><label for="pardo">Pardo</label>
+                <input value="M" name="cor" id="preto" type="radio" required><label for="preto">Preta</label>
+                <input value="A" name="cor" id="amarelo" type="radio" required><label for="amarelo">Amarela</label>
+                <input value="I" name="cor" id="indigena" type="radio" required><label for="indigena">Indigena</label>
+            </div>
+            
+        </br>
+            <legend><h2>Dados do Pai:</h2></legend>
+            <div>
+                <label for="nomeP">Nome do pai:</label>
+                <input placeholder="Digite seu Nome do pai:" type="text" id="nomeP" name="nomeP" required>
+            </div>
+            <br>
+            <div>
+                <label>Data de Nascimento:</label>
+                <input name="dtNasc" value="2022-08-30" type="date" max="2022-08-30" min="1901-01-01">
+            </div>
+            <br>
+            <div>
+                <label for="naturalidade">Naturalidade:</label>
+                <input placeholder="Naturalidade:" type="text" id="naturalidade" name="naturalidade" required>
+            </div>
+            <br>
+            <div>
+                <label for="profissão">Proissão:</label>
+                <input placeholder="Proissão:" type="text" id="profissão" name="profissão" required>
+            </div>
+            <br>
+            <div>
+                <label for="celularP">Celular do pai:</label>
+                <input placeholder="celular do Pai" type="text" id="celularP" name="celularP" required>
+            </div>
+            <br>
+            <div>
+                <label for="emailP">Email do pai:</label>
+                <input placeholder="E-mail do Pai:" type="text" id="emailP" name="emailP" required>
+            </div>
+            <br>
+            <div>
+                <label for="cpfP">Cpf do pai:</label>
+                <input placeholder="cpf do Pai" type="text" id="cpfP" name="cpfP" required>
+            </div>        
+            <br>
+                <label>Responsavel financeiro:</label>
+                <input checked value="S" name="responsavelP" id="sim" type="radio"><label for="sim">Sim</label>
+                <input value="N" name="responsavelP" id="nao" type="radio"><label for="nao">Não</label>
+            </div>
+            
+            <br>
+            <legend><h2>Dados da Mãe:</h2></legend>
+            <div>
+                <label for="nomeM">Nome da mãe:</label>
+                <input placeholder="Digite seu Nome da Mãe:" type="text" id="nomeM" name="nomeM" required>
+            </div>
+            <br>
+            <div>
+                <label>Data de Nascimento:</label>
+                <input name="dtNascM" value="2022-08-30" type="date" max="2022-08-30" min="1901-01-01">
+            </div>
+            <br>
+            <div>
+                <label for="naturalidadeM">Naturalidade:</label>
+                <input placeholder="Naturalidade:" type="text" id="naturalidadeM" name="naturalidadeM" required>
+            </div>
+            <br>
+            <div>
+                <label for="profissãoM">Profissão:</label>
+                <input placeholder="Profissão" type="text" id="profissãoM" name="profissãoM" required>
+            </div>
+            <br>
+            <div>
+                <label for="celularM">Celular da mãe:</label>
+                <input placeholder="celular da Mãe" type="text" id="celularM" name="celularM" required>
+            </div>
+            <br>
+            <div>
+                <label for="emailM">Email da Mãe:</label>
+                <input placeholder="E-mail do Mãe:" type="text" id="emailM" name="emailM" required>
+            </div>
+            <br>
+            <div>
+                <label for="cpfM">Cpf da mãe:</label>
+                <input placeholder="cpf da Mãe" type="text" id="cpfM" name="cpfM" required>
+            </div>       
+            <br>
+            <div>
+                <label>Responsavel financeiro:</label>
+                <input checked value="S" name="responsavelM" id="sim" type="radio"><label for="sim">Sim</label>
+                <input value="N" name="responsavelM" id="nao" type="radio"><label for="nao">Não</label>
+            </div>
+            
+          
+        </br>
+            <legend><h2>Dados do curso:</h2></legend>
+            <div>
+                <label for="nomeC">Nome do curso:</label>
+                <input placeholder="Digite seu Nome do Curso:" type="text" id="nomeC" name="nomeC" required>
+            </div>
+            <br>
+            <div>
+                <label>Data de Inicio:</label>
+                <input name="dtI" value="2022-08-30" type="date" max="2022-08-30" min="2002-01-01" required>
+            </div>
+            <br>
+            <div>
+                <label for="valor">Valor:</label>
+                <input placeholder="Valor do curso:" type="text" id="valor" name="valor" required>
+            </div>
+            <br>
+            <div>
+                <label>Forma de pagamento:</label>
+                <select name="A vista">
+                    <optgroup label="Analista de Sistemas"></optgroup>
+                    <option value="AV">A vista</option>
+                    <optgroup label="Parcelado"></optgroup>
+                    <option value="P1">Parcelado(x1)</option>
+                    <option value="P2">Parcelado(x2)</option>
+                    <option value="P3">Parcelado(x3)</option>
+                </select>
+            </div>
+            <br>
+    <div>
+        <button type="submit" method="get" id="dadosaluno" href="https://6306b2e73a2114bac75364c2.mockapi.io/api/v1/cursosin">Salvar</button>
+        <button type="reset">Limpar</button>
+    </div>
+            
+            
+          
+        </fieldset> 
+    </form>
+    <br>
+   
+    
+</body>
+</html>
